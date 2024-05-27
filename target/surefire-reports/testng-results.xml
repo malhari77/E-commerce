@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-24T11:59:02 IST" name="Suite" finished-at="2024-05-24T11:59:16 IST" duration-ms="14163">
+  <suite started-at="2024-05-27T11:07:07 IST" name="Suite" finished-at="2024-05-27T11:07:13 IST" duration-ms="6361">
     <groups>
     </groups>
-    <test started-at="2024-05-24T11:59:02 IST" name="Test" finished-at="2024-05-24T11:59:16 IST" duration-ms="14163">
+    <test started-at="2024-05-27T11:07:07 IST" name="Test" finished-at="2024-05-27T11:07:13 IST" duration-ms="6361">
       <class name="SwagLabs.Login">
-        <test-method signature="login_test()[pri:0, instance:SwagLabs.Login@47af7f3d]" started-at="2024-05-24T11:59:02 IST" name="login_test" finished-at="2024-05-24T11:59:16 IST" duration-ms="14118" status="PASS">
+        <test-method signature="login_test()[pri:0, instance:SwagLabs.Login@47af7f3d]" started-at="2024-05-27T11:07:07 IST" name="login_test" finished-at="2024-05-27T11:07:13 IST" duration-ms="6300" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_test -->
