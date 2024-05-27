@@ -4,6 +4,10 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="SwagLabs.Login"/>
-    </classes>
+	  <class name="SwagLabs.AddtoCart"></class> 
+	  <class name="SwagLabs.Filtrationtest"></class>
+	  <class name="SwagLabs.BrokenLinks"></class>  
+	  <class name="SwagLabs.Brokenlink"></class> 
+	  </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

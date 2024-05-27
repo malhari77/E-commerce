@@ -29,7 +29,17 @@ public class Filtrationtest
 		but.click();
 		
 		Select select = new Select (driver.findElement(By.xpath("//select[@class='product_sort_container']")));
-		select.selectByValue("za");
+		select.selectByValue("lohi");
+		
+		driver.findElement(By.linkText("Sauce Labs Fleece Jacket")).click();
+		
+		WebElement price = driver.findElement(By.xpath("//div[@class='inventory_details_price']"));
+		String s = price.getText();
+		System.out.println(s);
+		
+		Thread.sleep(4000);
+		
+		driver.close();
 	
 	}
 
