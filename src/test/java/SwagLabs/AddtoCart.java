@@ -40,6 +40,15 @@ public class AddtoCart
 		String a = text.getText();
 		System.out.println(a);
 		
+		String title = driver.getTitle();
+		System.out.println(title);
+		
+		if(title.contains("Labs")) {
+			System.out.println("Test case pass");
+		}
+		else {
+			System.out.println("Test case failed");
+		}
 		Thread.sleep(4000);
 		
 		driver.close();

@@ -1,0 +1,73 @@
+package SwagLabs;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class Filtrationtest 
+{
+	@Test
+	public void filtrationtest() throws InterruptedException 
+	{
+		WebDriverManager.chromedriver().setup();
+		ChromeDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		
+		driver.get("https://www.saucedemo.com/");
+		
+		WebElement un1 =driver.findElement(By.id("user-name"));
+		un1.sendKeys("standard_user");
+		
+		WebElement pd1 = driver.findElement(By.id("password"));
+		pd1.sendKeys("secret_sauce");
+		
+		WebElement but = driver.findElement(By.id("login-button"));
+		but.click();
+		
+		Select select = new Select (driver.findElement(By.xpath("//select[@class='product_sort_container']")));
+		select.selectByValue("az");
+		
+		Select slt = new Select (driver.findElement(By.xpath("//select[@class='product_sort_container")));
+		slt.deselectByValue("az");
+		
+		Thread.sleep(5000);
+		
+		Select st = new Select (driver.findElement(By.xpath("//select[@class='product_sort_container")));
+		st.selectByValue("za");
+		
+		Select selelctde = new Select (driver.findElement(By.xpath("//select[@class='product_sort_container")));
+		slt.deselectByValue("za");
+		
+		Thread.sleep(5000);
+		
+		Select sst = new Select (driver.findElement(By.xpath("//select[@class='product_sort_container")));
+		st.selectByValue("Price (low to high)");
+		
+		Select sst1 = new Select (driver.findElement(By.xpath("//select[@class='product_sort_container")));
+		st.deselectByValue("Price (low to high)");
+		
+		Thread.sleep(5000);
+		
+		Select sst2 = new Select (driver.findElement(By.xpath("//select[@class='product_sort_container")));
+		st.selectByValue("Price (high to low)");
+		
+		Select sst3 = new Select (driver.findElement(By.xpath("//select[@class='product_sort_container")));
+		st.deselectByValue("Price (low to high)");
+		
+		Thread.sleep(5000);
+		
+		if(select.equals(slt)) {
+			System.out.println("Test passed");
+		}
+			
+		else {
+			System.out.println("Test failed");
+				
+			}
+	}
+
+}

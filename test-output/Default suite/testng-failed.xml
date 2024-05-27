@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="SwagLabs.AddtoCart">
+      <class name="SwagLabs.Filtrationtest">
         <methods>
-          <include name="FleeceJacket"/>
+          <include name="filtrationtest"/>
         </methods>
-      </class> <!-- SwagLabs.AddtoCart -->
+      </class> <!-- SwagLabs.Filtrationtest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
