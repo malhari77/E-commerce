@@ -3,6 +3,11 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="SwagLabs.Amazontest">
+        <methods>
+          <include name="amazontest"/>
+        </methods>
+      </class> <!-- SwagLabs.Amazontest -->
       <class name="SwagLabs.Brokenlink">
         <methods>
           <include name="link"/>
