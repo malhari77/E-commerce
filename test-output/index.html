@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods, 2 failed,   4 passed</span>
+                    <span class="method-stats">6 methods, 1 failed,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -101,11 +101,6 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
                     </span>
                     <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="SwagLabs.Amazontest" class="method navigator-link" hash-for-method="amazontest">amazontest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="SwagLabs.Brokenlink" class="method navigator-link" hash-for-method="link">link</a> <!-- method navigator-link -->
@@ -123,6 +118,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="SwagLabs.AddtoCart" class="method navigator-link" hash-for-method="FleeceJacket">FleeceJacket</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="SwagLabs.Amazontest" class="method navigator-link" hash-for-method="amazontest">amazontest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -155,45 +155,6 @@
           <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">SwagLabs.Amazontest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="amazontest">
-                  </a> <!-- amazontest -->
-                  <span class="method-name">amazontest</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class=&apos;a-link-normal s-underline-text s-underline-link-text s-link-style a-text-normal&apos; and @href=&apos;/sspa/click?ie=UTF8&amp;spc=MTozNjA1MjYxMzk0MTY3MTQ4OjE3MTY5MDAyOTk6c3BfYXRmOjMwMDA1NDM0NTk0ODkzMjo6MDo6&amp;url=%2FApple-iPhone-15-Pro-256%2Fdp%2FB0CHX5J2ND%2Fref%3Dsr_1_1_sspa%3Fdib%3DeyJ2IjoiMSJ9.OYvib3u__hXFvKmx0hKSh_ULCR4HTKOxGiaqvccZn0dST5LVVbP2IMAQw2HmjO8hYIwRSOoQ6sjXyMoy65z3vkOOT5njuMQJeWMqwJT3Lin4uq5liHvEiC_fD7NFttXkU4D3Ew91lWNXngSDxQVHS_zynwp8Q_iNr7yY9lh_bAKJerllr9mjxNlL06SwkdwHdqDr8xVdBn_k01iB96nfEX0mxuy4-W63NNCTYN1eFMw.g6DVtWgZxbd6N39VFHM-OPmEfzT3Ru3MocbSCw5VFuk%26dib_tag%3Dse%26keywords%3Diphone%2B15%2Bpro%2Bmax%26qid%3D1716900299%26sr%3D8-1-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&apos;]&quot;}
-  (Session info: chrome=125.0.6422.77)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [695a18afeb2e9a5c4ee97f4f8303384b, findElement {value=//a[@class=&apos;a-link-normal s-underline-text s-underline-link-text s-link-style a-text-normal&apos; and @href=&apos;/sspa/click?ie=UTF8&amp;spc=MTozNjA1MjYxMzk0MTY3MTQ4OjE3MTY5MDAyOTk6c3BfYXRmOjMwMDA1NDM0NTk0ODkzMjo6MDo6&amp;url=%2FApple-iPhone-15-Pro-256%2Fdp%2FB0CHX5J2ND%2Fref%3Dsr_1_1_sspa%3Fdib%3DeyJ2IjoiMSJ9.OYvib3u__hXFvKmx0hKSh_ULCR4HTKOxGiaqvccZn0dST5LVVbP2IMAQw2HmjO8hYIwRSOoQ6sjXyMoy65z3vkOOT5njuMQJeWMqwJT3Lin4uq5liHvEiC_fD7NFttXkU4D3Ew91lWNXngSDxQVHS_zynwp8Q_iNr7yY9lh_bAKJerllr9mjxNlL06SwkdwHdqDr8xVdBn_k01iB96nfEX0mxuy4-W63NNCTYN1eFMw.g6DVtWgZxbd6N39VFHM-OPmEfzT3Ru3MocbSCw5VFuk%26dib_tag%3Dse%26keywords%3Diphone%2B15%2Bpro%2Bmax%26qid%3D1716900299%26sr%3D8-1-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&apos;], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.77, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: C:\Users\malhari\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52430}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52430/devtoo..., se:cdpVersion: 125.0.6422.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 695a18afeb2e9a5c4ee97f4f8303384b
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-	at SwagLabs.Amazontest.amazontest(Amazontest.java:35)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 28 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
               <span class="class-name">SwagLabs.Brokenlink</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -206,10 +167,10 @@ Session ID: 695a18afeb2e9a5c4ee97f4f8303384b
 Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a1b67379d7f0513eb5534a1a1c9c77af, getElementText {id=f.8829B4F3A1B0D7C60907EBBFB6EF3768.d.A3A50498F0F5FEAF8163E6138C964B9F.e.29}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.77, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: C:\Users\malhari\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52391}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52391/devtoo..., se:cdpVersion: 125.0.6422.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (a1b67379d7f0513eb5534a1a1c9c77af)] -&gt; tag name: a]
-Session ID: a1b67379d7f0513eb5534a1a1c9c77af
+Command: [8e1a5755c6d039dd41a6a0bd5aa92e24, getElementText {id=f.7358E2DB08337F4D9ED07CBA6899F0B7.d.2A472C48709C5DDE88866E6D2A8DE71B.e.29}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.113, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: C:\Users\malhari\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49357}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49357/devtoo..., se:cdpVersion: 125.0.6422.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (8e1a5755c6d039dd41a6a0bd5aa92e24)] -&gt; tag name: a]
+Session ID: 8e1a5755c6d039dd41a6a0bd5aa92e24
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -238,6 +199,21 @@ Session ID: a1b67379d7f0513eb5534a1a1c9c77af
                   <a name="filtrationtest">
                   </a> <!-- filtrationtest -->
                   <span class="method-name">filtrationtest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">SwagLabs.Amazontest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="amazontest">
+                  </a> <!-- amazontest -->
+                  <span class="method-name">amazontest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -348,32 +324,32 @@ data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'amazontest')
 data.setCell(0, 2, 'SwagLabs.Amazontest')
-data.setCell(0, 3, 25286);
+data.setCell(0, 3, 31871);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'filtrationtest')
-data.setCell(1, 2, 'SwagLabs.Filtrationtest')
-data.setCell(1, 3, 9602);
+data.setCell(1, 1, 'login_test')
+data.setCell(1, 2, 'SwagLabs.Login')
+data.setCell(1, 3, 14129);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'FleeceJacket')
 data.setCell(2, 2, 'SwagLabs.AddtoCart')
-data.setCell(2, 3, 8680);
+data.setCell(2, 3, 9110);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'login_test')
-data.setCell(3, 2, 'SwagLabs.Login')
-data.setCell(3, 3, 5504);
+data.setCell(3, 1, 'filtrationtest')
+data.setCell(3, 2, 'SwagLabs.Filtrationtest')
+data.setCell(3, 3, 8916);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'blinks')
-data.setCell(4, 2, 'SwagLabs.BrokenLinks')
-data.setCell(4, 3, 5042);
+data.setCell(4, 1, 'link')
+data.setCell(4, 2, 'SwagLabs.Brokenlink')
+data.setCell(4, 3, 4774);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'link')
-data.setCell(5, 2, 'SwagLabs.Brokenlink')
-data.setCell(5, 3, 4755);
+data.setCell(5, 1, 'blinks')
+data.setCell(5, 2, 'SwagLabs.BrokenLinks')
+data.setCell(5, 3, 4467);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 58 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -409,21 +385,21 @@ return data;
               <div class="chronological-class-name">SwagLabs.AddtoCart</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">FleeceJacket</span>
-                <span class="method-start">5515 ms</span>
+                <span class="method-start">14143 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">SwagLabs.Filtrationtest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">filtrationtest</span>
-                <span class="method-start">14203 ms</span>
+                <span class="method-start">23258 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">SwagLabs.BrokenLinks</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">blinks</span>
-                <span class="method-start">23809 ms</span>
+                <span class="method-start">32179 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -432,16 +408,14 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">link</span>
-                <span class="method-start">28857 ms</span>
+                <span class="method-start">36649 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">SwagLabs.Amazontest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">amazontest</span>
-                <span class="method-start">33621 ms</span>
+                <span class="method-start">41429 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
