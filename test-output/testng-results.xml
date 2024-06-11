@@ -2,56 +2,40 @@
 <testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-30T12:59:17 IST" name="Suite" finished-at="2024-05-30T13:00:30 IST" duration-ms="73371">
+  <suite started-at="2024-06-05T18:54:28 IST" name="Suite" finished-at="2024-06-05T18:55:08 IST" duration-ms="39312">
     <groups>
     </groups>
-    <test started-at="2024-05-30T12:59:17 IST" name="Test" finished-at="2024-05-30T13:00:30 IST" duration-ms="73371">
+    <test started-at="2024-06-05T18:54:28 IST" name="Test" finished-at="2024-06-05T18:55:08 IST" duration-ms="39312">
       <class name="SwagLabs.AddtoCart">
-        <test-method signature="FleeceJacket()[pri:0, instance:SwagLabs.AddtoCart@6c6cb480]" started-at="2024-05-30T12:59:31 IST" name="FleeceJacket" finished-at="2024-05-30T12:59:40 IST" duration-ms="9110" status="PASS">
+        <test-method signature="FleeceJacket()[pri:0, instance:SwagLabs.AddtoCart@408d971b]" started-at="2024-06-05T18:54:33 IST" name="FleeceJacket" finished-at="2024-06-05T18:54:41 IST" duration-ms="8133" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FleeceJacket -->
       </class> <!-- SwagLabs.AddtoCart -->
       <class name="SwagLabs.Amazontest">
-        <test-method signature="amazontest()[pri:0, instance:SwagLabs.Amazontest@292b08d6]" started-at="2024-05-30T12:59:58 IST" name="amazontest" finished-at="2024-05-30T13:00:30 IST" duration-ms="31871" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- amazontest -->
-      </class> <!-- SwagLabs.Amazontest -->
-      <class name="SwagLabs.Filtrationtest">
-        <test-method signature="filtrationtest()[pri:0, instance:SwagLabs.Filtrationtest@3c46e67a]" started-at="2024-05-30T12:59:40 IST" name="filtrationtest" finished-at="2024-05-30T12:59:49 IST" duration-ms="8916" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- filtrationtest -->
-      </class> <!-- SwagLabs.Filtrationtest -->
-      <class name="SwagLabs.Login">
-        <test-method signature="login_test()[pri:0, instance:SwagLabs.Login@5bf0d49]" started-at="2024-05-30T12:59:17 IST" name="login_test" finished-at="2024-05-30T12:59:31 IST" duration-ms="14129" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login_test -->
-      </class> <!-- SwagLabs.Login -->
-      <class name="SwagLabs.Brokenlink">
-        <test-method signature="link()[pri:0, instance:SwagLabs.Brokenlink@206a70ef]" started-at="2024-05-30T12:59:53 IST" name="link" finished-at="2024-05-30T12:59:58 IST" duration-ms="4774" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchSessionException">
+        <test-method signature="amazontest()[pri:0, instance:SwagLabs.Amazontest@c730b35]" started-at="2024-06-05T18:54:54 IST" name="amazontest" finished-at="2024-06-05T18:55:01 IST" duration-ms="7011" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[invalid session id
+              <![CDATA[element click intercepted: Element <button class="_2iLD__" type="submit" aria-label="Search for Products, Brands and More" title="Search for Products, Brands and More">...</button> is not clickable at point (246, 33). Other element would receive the click: <div class="_23axDd"></div>
+  (Session info: chrome=125.0.6422.142)
 Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8e1a5755c6d039dd41a6a0bd5aa92e24, getElementText {id=f.7358E2DB08337F4D9ED07CBA6899F0B7.d.2A472C48709C5DDE88866E6D2A8DE71B.e.29}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.113, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: C:\Users\malhari\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49357}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49357/devtoo..., se:cdpVersion: 125.0.6422.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (8e1a5755c6d039dd41a6a0bd5aa92e24)] -> tag name: a]
-Session ID: 8e1a5755c6d039dd41a6a0bd5aa92e24]]>
+Command: [d1a929cd4f7df4cf51de8e1af9e555c5, clickElement {id=f.9560FB8128F71835938ECEBE3277B4CC.d.37FCC989F61F90C2924CEA93593DDE0C.e.135}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\malhari\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50151}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50151/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d1a929cd4f7df4cf51de8e1af9e555c5)] -> xpath: //button[@type='submit']]
+Session ID: d1a929cd4f7df4cf51de8e1af9e555c5]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="_2iLD__" type="submit" aria-label="Search for Products, Brands and More" title="Search for Products, Brands and More">...</button> is not clickable at point (246, 33). Other element would receive the click: <div class="_23axDd"></div>
+  (Session info: chrome=125.0.6422.142)
 Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8e1a5755c6d039dd41a6a0bd5aa92e24, getElementText {id=f.7358E2DB08337F4D9ED07CBA6899F0B7.d.2A472C48709C5DDE88866E6D2A8DE71B.e.29}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.113, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: C:\Users\malhari\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49357}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49357/devtoo..., se:cdpVersion: 125.0.6422.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (8e1a5755c6d039dd41a6a0bd5aa92e24)] -> tag name: a]
-Session ID: 8e1a5755c6d039dd41a6a0bd5aa92e24
+Command: [d1a929cd4f7df4cf51de8e1af9e555c5, clickElement {id=f.9560FB8128F71835938ECEBE3277B4CC.d.37FCC989F61F90C2924CEA93593DDE0C.e.135}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\malhari\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50151}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50151/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d1a929cd4f7df4cf51de8e1af9e555c5)] -> xpath: //button[@type='submit']]
+Session ID: d1a929cd4f7df4cf51de8e1af9e555c5
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -63,8 +47,8 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(Driver
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
 at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:191)
-at SwagLabs.Brokenlink.link(Brokenlink.java:42)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at SwagLabs.Amazontest.amazontest(Amazontest.java:33)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -93,13 +77,31 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- link -->
-      </class> <!-- SwagLabs.Brokenlink -->
+        </test-method> <!-- amazontest -->
+      </class> <!-- SwagLabs.Amazontest -->
+      <class name="SwagLabs.frames">
+        <test-method signature="frame()[pri:0, instance:SwagLabs.frames@206a70ef]" started-at="2024-06-05T18:55:01 IST" name="frame" finished-at="2024-06-05T18:55:08 IST" duration-ms="6274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- frame -->
+      </class> <!-- SwagLabs.frames -->
+      <class name="SwagLabs.Filtrationtest">
+        <test-method signature="filtrationtest()[pri:0, instance:SwagLabs.Filtrationtest@6c6cb480]" started-at="2024-06-05T18:54:41 IST" name="filtrationtest" finished-at="2024-06-05T18:54:50 IST" duration-ms="8955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filtrationtest -->
+      </class> <!-- SwagLabs.Filtrationtest -->
+      <class name="SwagLabs.Login">
+        <test-method signature="login_test()[pri:0, instance:SwagLabs.Login@175c2241]" started-at="2024-06-05T18:54:28 IST" name="login_test" finished-at="2024-06-05T18:54:33 IST" duration-ms="4563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_test -->
+      </class> <!-- SwagLabs.Login -->
       <class name="SwagLabs.BrokenLinks">
-        <test-method signature="blinks()[pri:0, instance:SwagLabs.BrokenLinks@c730b35]" started-at="2024-05-30T12:59:49 IST" name="blinks" finished-at="2024-05-30T12:59:53 IST" duration-ms="4467" status="PASS">
+        <test-method signature="blinks()[pri:0, instance:SwagLabs.BrokenLinks@3c46e67a]" started-at="2024-06-05T18:54:50 IST" name="blinks" finished-at="2024-06-05T18:54:54 IST" duration-ms="4290" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- blinks -->

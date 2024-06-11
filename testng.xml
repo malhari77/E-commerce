@@ -3,12 +3,12 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="SwagLabs.Login"/>
+      <class name="SwagLabs.Login"></class>
 	  <class name="SwagLabs.AddtoCart"></class> 
 	  <class name="SwagLabs.Filtrationtest"></class>
 	  <class name="SwagLabs.BrokenLinks"></class>  
-	  <class name="SwagLabs.Brokenlink"></class>
-	  <class name="SwagLabs.Amazontest"></class> 
+	  <class name="SwagLabs.Amazontest"></class>
+	  <class name="SwagLabs.frames"></class>
 	  </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
